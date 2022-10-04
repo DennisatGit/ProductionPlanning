@@ -45,6 +45,6 @@ Imported from .csv files
 
 Specified in the notebook
 * $r_{t}$ - revenue parameters, are based on time and decrease over time. Consequently, early production is favoured. 
-* $mr$ - constant indicating the maximum move rate in assemblies in a week. 
+* $br$ - constant indicating the maximum move rate in assemblies in a week. 
 * $t_{a}$ - total production allowed for assembly _a_. Indicates that production in the given time window cannot exceed an upper limit. 
 
