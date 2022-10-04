@@ -34,7 +34,7 @@ Decision variables in the PULP formulation.
 Sets that help specify the problem. For example, the number of final assemblies or the time window. 
 * W - weeks, time window of the problem.
 * A - assemblies, the number of final assemblies that can be made.
-* D - demand, the different input materials that can be demanded. 
+* D - demanded input material, the different input materials that can be demanded (set is specified as D since the more logical I is reserved for inventory).
 
 
 **Other Parameters**
