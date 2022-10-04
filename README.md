@@ -7,5 +7,10 @@ For information about the problem statement I refer to my medium article.
 https://medium.com/p/116c78f09742/edit 
 
 **Code**
-Decision variables
+Decision variables in the PULP formulation.
 * $X_{t, a}$ - integer decision variable indicating the number of assemblies _a_ produced at week _t_.
+* $I_{t, d}$ - integer decision variable indicating the number of input materials _d_ at time _t_ that are in inventory. 
+* $D_{t, d}$ - integer decision variable indicating the number of required input materials for input _d_ at time _t_.
+
+**Input Parameters**
+Input parameters that are provided by the .csv files. 
