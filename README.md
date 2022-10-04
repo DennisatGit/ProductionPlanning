@@ -16,10 +16,12 @@ Input .csv files. The first three are generated with the notebooks above.
 * final_assemblies.csv
 * input_materials.csv
 
+
 **Problem Statement**
 For information about the problem statement I refer to my medium article. 
 
 https://medium.com/p/116c78f09742/edit 
+
 
 **Code**
 Decision variables in the PULP formulation.
@@ -27,11 +29,13 @@ Decision variables in the PULP formulation.
 * $I_{t, d}$ - integer decision variable indicating the number of input materials _d_ at time _t_ that are in inventory. 
 * $D_{t, d}$ - integer decision variable indicating the number of required input materials for input _d_ at time _t_.
 
+
 **Sets**
 Sets that help specify the problem. For example, the number of final assemblies or the time window. 
 * W - weeks, time window of the problem.
 * A - assemblies, the number of final assemblies that can be made.
 * D - demand, the different input materials that can be demanded. 
+
 
 **Other Parameters**
 Imported from .csv files
