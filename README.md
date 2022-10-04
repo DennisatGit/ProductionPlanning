@@ -22,7 +22,6 @@ For information about the problem statement I refer to my medium article.
 
 https://medium.com/p/116c78f09742/edit 
 
-
 **Code**
 Decision variables in the PULP formulation.
 * $X_{t, a}$ - integer decision variable indicating the number of assemblies _a_ produced at week _t_.
