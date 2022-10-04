@@ -8,5 +8,4 @@ https://medium.com/p/116c78f09742/edit
 
 **Code**
 Decision variables
-- $X_{t, a}$, integer decision variable indicating the number of assemblies _a_ produced at week _t_.
-- 
+* $X_{t, a}$ - integer decision variable indicating the number of assemblies _a_ produced at week _t_.
