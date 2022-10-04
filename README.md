@@ -6,8 +6,8 @@ The main notebook that contains the optimisation.
 
 Notebooks used to randomly generate supply, onhand inventory and the material requirements.
 * Supply Input Materials.ipynb
-* Onhand Inventory.ipynb
-* Conversion Matrix.ipynb
+* Inventory Onhand.ipynb
+* Material Requirements.ipynb
 
 Input .csv files. The first three are generated with the notebooks above. 
 * supply_input_materials.csv
