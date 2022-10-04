@@ -40,7 +40,7 @@ Sets that help specify the problem. For example, the number of final assemblies 
 **Other Parameters**
 Imported from .csv files
 * $s_{t, d}$ - supply at time _t_ for input material _d_. Supply arrives during the period, so cannot be used for the production in that period.
-* $b_{a, d}$ - material requirements to produce assembly _a_ in terms of input materials _d_.
+* $m_{a, d}$ - material requirements to produce assembly _a_ in terms of input materials _d_.
 * $o_{d}$ - onhand inventory at time $t=0$ for input material _d_.
 
 Specified in the notebook
