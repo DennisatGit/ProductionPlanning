@@ -1,5 +1,20 @@
 # Production Planning
-Integer Linear Program applied at Production Planning. The notebook is based on a real-life situation encountered at a high tech manufacturing firm in the Netherlands. The repo consists of .csv files that are input files for the main notebook 'Production Planning Optimisation at a High Tech Manufacturing Firm.ipynb'. There are other .ipynb files which are used to randomly generate supply, conversion matrix and the onhand inventory in the beginning of the time frame. It is not necessary to run these notebooks since input files are provided. However, these notebooks show how these input files are created. 
+Integer Linear Program applied at Production Planning. The notebook is based on a real-life situation encountered at a high tech manufacturing firm in the Netherlands. The repo consists of the main notebook, additional notebooks to generate inputs and input files that might result from the additional notebooks or are directly specified. 
+
+The main notebook that contains the optimisation.
+* Production Planning Optimisation at a High Tech Manufacturing Firm.ipynb
+
+Notebooks used to randomly generate supply, onhand inventory and the material requirements.
+* Supply Input Materials.ipynb
+* Onhand Inventory.ipynb
+* Conversion Matrix.ipynb
+
+Input .csv files. The first three are generated with the notebooks above. 
+* supply_input_materials.csv
+* inventory_onhand.csv
+* conversion_matrix.csv
+* final_assemblies.csv
+* input_materials.csv
 
 **Problem Statement**
 For information about the problem statement I refer to my medium article. 
@@ -12,5 +27,20 @@ Decision variables in the PULP formulation.
 * $I_{t, d}$ - integer decision variable indicating the number of input materials _d_ at time _t_ that are in inventory. 
 * $D_{t, d}$ - integer decision variable indicating the number of required input materials for input _d_ at time _t_.
 
-**Input Parameters**
-Input parameters that are provided by the .csv files. 
+**Sets**
+Sets that help specify the problem. For example, the number of final assemblies or the time window. 
+* W - weeks, time window of the problem.
+* A - assemblies, the number of final assemblies that can be made.
+* D - demand, the different input materials that can be demanded. 
+
+**Other Parameters**
+Imported from .csv files
+* $s_{t, d}$ - supply at time _t_ for input material _d_. Supply arrives during the period, so cannot be used for the production in that period.
+* $b_{a, d}$ - material requirements to produce assembly _a_ in terms of input materials _d_.
+* $o_{d}$ - onhand inventory at time $t=0$ for input material _d_.
+
+Specified in the notebook
+* $r_{t}$ - revenue parameters, are based on time and decrease over time. Consequently, early production is favoured. 
+* $mr$ - constant indicating the maximum move rate in assemblies in a week. 
+* $t_{a}$ - total production allowed for assembly _a_. Indicates that production in the given time window cannot exceed an upper limit. 
+
