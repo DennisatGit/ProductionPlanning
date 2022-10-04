@@ -12,7 +12,7 @@ Notebooks used to randomly generate supply, onhand inventory and the material re
 Input .csv files. The first three are generated with the notebooks above. 
 * supply_input_materials.csv
 * inventory_onhand.csv
-* conversion_matrix.csv
+* material_requirements.csv
 * final_assemblies.csv
 * input_materials.csv
 
