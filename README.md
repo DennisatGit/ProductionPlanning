@@ -3,5 +3,5 @@ Integer Linear Program applied at Production Planning. The notebook is based on 
 
 For information about the problem statement I refer to my medium article. 
 
-<a target="_blank" href="https://medium.com/p/116c78f09742/edit"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@imantumorang/0" alt="Recent Article 0"> 
+<a target="_blank" href="https://medium.com/p/116c78f09742/edit"><img src="https://medium.com/p/116c78f09742/edit" alt="Recent Article 0"> 
  
