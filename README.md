@@ -47,3 +47,5 @@ Specified in the notebook
 * $br$ - constant indicating the bottleneck rate in assemblies in a week. 
 * $t_{a}$ - total production allowed for assembly _a_. Indicates that production in the given time window cannot exceed an upper limit. 
 
+**Final Notes**
+The solution is sensitive to specific input paramaters. Under certain circumstances the notebook finds an optimal solution in reasonable time. However, in many cases it takes a far longer time to come up with an optimal solution. To counter this problem I posed a time limit of 60s and an allowed performance gap of 10%. Still it might occur that the formulation won't find a feasible solution.
