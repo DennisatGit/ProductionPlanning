@@ -48,4 +48,4 @@ Specified in the notebook
 * $t_{a}$ - total production allowed for assembly _a_. Indicates that production in the given time window cannot exceed an upper limit. 
 
 **Final Notes**
-The solution is sensitive to specific input paramaters. Under certain circumstances the notebook finds an optimal solution in reasonable time. However, in many cases it takes a far longer time to come up with an optimal solution. To counter this problem I posed a time limit of 60s and an allowed performance gap of 10%. Still it might occur that the formulation won't find a feasible solution.
+The solution is sensitive to specific input paramaters. Under certain circumstances the notebook finds an optimal solution in reasonable time. However, in many cases it takes a far longer time to come up with an optimal solution. To counter this problem I posed a time limit of 60s and an allowed performance gap of 10%. Still it might occur that the formulation won't find a feasible solution. Another solution might be to use one of the paid services of Gurobi, which are known to perform much better than the standard option. 
